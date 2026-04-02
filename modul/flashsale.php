@@ -14,13 +14,11 @@
 
         <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
             <!-- Product Card 1 -->
-
-            <?php
-                $sqlmenu = $conn->query("SELECT * FROM flashsale");
+<?php
+                $sqlmenu = $conn->query("SELECT * FROM categories");
                 while($datamenu = $sqlmenu->fetch_assoc()){
                     ?>
-                    
-            <div class="bg-white rounded-lg shadow-md hover:shadow-xl transition duration-300">
+<div class="bg-white rounded-lg shadow-md hover:shadow-xl transition duration-300">
                 <div class="relative">
                     <img src="https://placehold.co/300x300/indigo/white?text=Produk" alt="Product" class="w-full h-48 object-cover rounded-t-lg">
                     <span class="absolute top-2 left-2 bg-red-500 text-white text-xs px-2 py-1 rounded">-40%</span>
@@ -36,6 +34,11 @@
                     </div>
                 </div>
             </div>
+
+                     <?php
+                }
+                ?>
+            
             </div>
         </div>
     </div>

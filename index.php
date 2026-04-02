@@ -1,14 +1,12 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Commerce Profesional - Toko Modern</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-</head>
-<body class="bg-gray-50">
-
-    
-</body>
-</html>
+<?php
+include"lib/koneksi.php";
+include"modul/partials/header.php";
+include"modul/navbar.php";
+include"modul/menu.php";
+include"modul/banner.php";
+include"modul/flashsale.php";
+include"modul/banner-kategori.php";
+include"modul/produk-rekomendasi.php";
+include"modul/banner-kategori.php";
+include"modul/partials/footter.php";
+?>
