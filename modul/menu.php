@@ -9,8 +9,8 @@
                       <a href="#" class="text-gray-600 hover:text-indigo-600 whitespace-nowrap font-medium">Elektronik</a>
                     <?php
                 }
-                ?>
-              
+              ?>
+    
 </div>
         </div>
     </div>
