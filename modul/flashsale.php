@@ -20,12 +20,12 @@
                     ?>
 <div class="bg-white rounded-lg shadow-md hover:shadow-xl transition duration-300">
                 <div class="relative">
-                    <img src="https://placehold.co/300x300/indigo/white?text=Produk" alt="Product" class="w-full h-48 object-cover rounded-t-lg">
+                    <img src="<?= $datamenu ['image_url']?>" alt="Product" class="w-full h-48 object-cover rounded-t-lg">
                     <span class="absolute top-2 left-2 bg-red-500 text-white text-xs px-2 py-1 rounded">-40%</span>
                 </div>
                 <div class="p-4">
-                    <h3 class="font-semibold text-gray-800 mb-2">Smartphone Pro Max</h3>
-                    <p class="text-gray-500 text-sm mb-2">Rp 5.999.000</p>
+                    <h3 class="font-semibold text-gray-800 mb-2"><?= $datamenu['name']?></h3>
+                    <p class="text-gray-500 text-sm mb-2"><?= $datamenu['price']?></p>
                     <div class="flex items-center justify-between">
                         <span class="text-red-500 font-bold">Rp 3.599.000</span>
                         <button class="text-indigo-600 hover:text-indigo-700">
@@ -39,6 +39,5 @@
                 }
                 ?>
             
-            </div>
         </div>
     </div>
