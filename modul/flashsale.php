@@ -15,7 +15,7 @@
         <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
             <!-- Product Card 1 -->
 <?php
-                $sqlmenu = $conn->query("SELECT * FROM categories");
+                $sqlmenu = $conn->query("SELECT * FROM products");
                 while($datamenu = $sqlmenu->fetch_assoc()){
                     ?>
 <div class="bg-white rounded-lg shadow-md hover:shadow-xl transition duration-300">
